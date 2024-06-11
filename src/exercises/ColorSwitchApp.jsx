@@ -1,4 +1,3 @@
-import {useState} from 'react';
 /* Componente ColorButton */
 function ColorButton({ cambioColor }){
 return(
@@ -25,7 +24,7 @@ function handleCambioColor(){
 export default function ColorSwitchApp() {
   return (
     <>
-     <div id='colorContainer'>
+     <div >
         <h1>Cambio de Color Random</h1>
        
             <ColorButton cambioColor={handleCambioColor}/>
